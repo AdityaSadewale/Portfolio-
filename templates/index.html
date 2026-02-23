@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aditya Sadewale | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" 
+    href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Aditya Sadewale</div>
+    <nav>
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+
+        <a href="https://github.com/AdityaSadewale" target="_blank" class="nav-icon">
+            <i class="fab fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/AdityaSadewale/" target="_blank" class="nav-icon">
+            <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="{{ url_for('download_resume') }}" class="resume-btn">Resume</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section id="hero">
+    <canvas id="space-canvas"></canvas>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-container">
+        <h1>Hi, I'm <span class="highlight">Aditya Sadewale</span></h1>
+        <h2 class="typing">Web Developer | Python | JS | Flask</h2>
+        <p>I build modern, scalable, and animated web applications.</p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="primary-btn">View Projects</a>
+            <a href="{{ url_for('download_resume') }}" class="resume-btn">Resume</a>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section hidden">
+    <div class="section-container">
+        <h2>About Me</h2>
+        <p>
+            I'm a passionate developer focused on building modern,
+            interactive and scalable applications using Flask and JS.
+        </p>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section hidden">
+    <div class="section-container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">HTML5</div>
+            <div class="skill-card">CSS3</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">Python</div>
+            <div class="skill-card">Flask</div>
+            <div class="skill-card">React</div>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section hidden">
+    <div class="section-container">
+        <h2>Projects</h2>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Weather App</h3>
+                <p>Real-time weather application using APIs.</p>
+                <a href="https://github.com/AdityaSadewale/weather-app" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section hidden">
+    <div class="section-container">
+        <h2>Contact</h2>
+        <p>Email: your-email@example.com</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Aditya Sadewale | Built with Flask</p>
+</footer>
+
+<!-- JS (Loaded at Bottom for Safety) -->
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>
