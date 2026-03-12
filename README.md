@@ -30,19 +30,6 @@ A modern, responsive, and animated personal portfolio website built using **Flas
   - Python
   - Flask
 
----
-
-## 📂 Project Structure
-portfolio/
-│
-├── app.py
-├── templates/
-│ └── index.html
-│
-
-
----
-
 ## ▶️ How to Run Locally
 
 1️⃣ Clone the repository
