@@ -39,14 +39,6 @@ portfolio/
 ├── templates/
 │ └── index.html
 │
-├── static/
-│ ├── css/
-│ │ └── style.css
-│ ├── js/
-│ │ └── script.js
-│ └── Aditya_Sadewale_Resume.pdf
-│
-└── README.md
 
 
 ---
