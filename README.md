@@ -1,4 +1,4 @@
-# 🚀 Aditya Sadewale | Portfolio Website
+# 🚀 Aditya Portfolio Website
 
 
 A modern, responsive, and animated personal portfolio website built using **Flask, HTML, CSS, and JavaScript**.
