@@ -3,7 +3,6 @@
 A modern, responsive, and animated personal portfolio website built using **Flask, HTML, CSS, and JavaScript**.
 
 🌐 Designed to showcase projects, skills, and resume in a clean and professional layout.
-
 ---
 
 ## 📌 Features
